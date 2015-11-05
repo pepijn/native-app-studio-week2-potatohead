@@ -22,7 +22,7 @@
                                 <rect key="frame" x="20" y="20" width="560" height="580"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iv0-1h-gu7">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="410"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="380"/>
                                         <subviews>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="xWV-iU-7U4">
                                                 <rect key="frame" x="98" y="-28" width="367" height="428"/>
@@ -84,6 +84,7 @@
                                             <constraint firstItem="qAe-zp-erO" firstAttribute="top" secondItem="iv0-1h-gu7" secondAttribute="top" constant="-28" id="Kca-u4-PDR"/>
                                             <constraint firstItem="YDM-2s-MtK" firstAttribute="centerX" secondItem="iv0-1h-gu7" secondAttribute="centerX" id="R8t-iy-1ER"/>
                                             <constraint firstItem="KXq-zf-zBm" firstAttribute="centerX" secondItem="iv0-1h-gu7" secondAttribute="centerX" constant="-4.5" id="STJ-Xp-IJ2"/>
+                                            <constraint firstAttribute="height" constant="380" id="ZhH-a3-eX7"/>
                                             <constraint firstItem="YDM-2s-MtK" firstAttribute="top" secondItem="iv0-1h-gu7" secondAttribute="top" constant="-9" id="asN-0N-9JH"/>
                                             <constraint firstItem="KpR-mr-iHC" firstAttribute="centerX" secondItem="iv0-1h-gu7" secondAttribute="centerX" constant="-3.5" id="ch6-ls-l7h"/>
                                             <constraint firstItem="hGA-dp-K4L" firstAttribute="centerX" secondItem="iv0-1h-gu7" secondAttribute="centerX" constant="-1.5" id="eLE-Xn-Jni"/>
@@ -97,13 +98,13 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2rB-Wr-Rf5">
-                                        <rect key="frame" x="0.0" y="410" width="560" height="170"/>
+                                        <rect key="frame" x="0.0" y="380" width="560" height="200"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CSq-Ej-j0r">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="170"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="200"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbp-oP-5Du">
-                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LPd-S1-mNI">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -131,7 +132,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cku-S4-wfO">
-                                                        <rect key="frame" x="0.0" y="34" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="40" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8OK-Zh-hKL">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -141,7 +142,7 @@
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oren" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AN0-kL-7zk">
-                                                                <rect key="frame" x="57" y="5" width="495" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="495" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -159,7 +160,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRX-fK-d9a">
-                                                        <rect key="frame" x="0.0" y="68" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="80" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DXI-Ti-rJz">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -169,7 +170,7 @@
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ogen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nX7-Px-j64">
-                                                                <rect key="frame" x="57" y="5" width="495" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="495" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -187,10 +188,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9a-vl-G4c">
-                                                        <rect key="frame" x="0.0" y="102" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="120" width="280" height="40"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mond" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVx-T9-LyY">
-                                                                <rect key="frame" x="57" y="5" width="495" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="495" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -215,7 +216,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Le-Qm-GWV">
-                                                        <rect key="frame" x="0.0" y="136" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="160" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3O4-d7-XWu">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -225,7 +226,7 @@
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wenkbrauwen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="IPX-G8-HZC">
-                                                                <rect key="frame" x="57" y="5" width="215" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="215" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -246,10 +247,10 @@
                                                 <animations/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="puT-Rh-ESo">
-                                                <rect key="frame" x="280" y="0.0" width="280" height="170"/>
+                                                <rect key="frame" x="280" y="0.0" width="280" height="200"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Jb-jR-z9T">
-                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dAq-DB-X1B">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -259,7 +260,7 @@
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bril" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ao7-eD-qgQ">
-                                                                <rect key="frame" x="57" y="5" width="495" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="495" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -277,7 +278,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2J-LV-02j">
-                                                        <rect key="frame" x="0.0" y="34" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="40" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iOR-t8-Gn4">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -287,7 +288,7 @@
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schoenen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9u-bT-asE">
-                                                                <rect key="frame" x="57" y="5" width="495" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="495" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -305,7 +306,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1rz-Rl-seL">
-                                                        <rect key="frame" x="0.0" y="68" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="80" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jJN-MD-TiH">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -315,7 +316,7 @@
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Armen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsa-3o-0Z5">
-                                                                <rect key="frame" x="57" y="5" width="495" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="495" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -333,7 +334,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="djh-Mo-7Mi">
-                                                        <rect key="frame" x="0.0" y="102" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="120" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BUP-7E-LPm">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -343,7 +344,7 @@
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2R-Ua-EGp">
-                                                                <rect key="frame" x="57" y="5" width="495" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="495" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -361,7 +362,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jhe-ay-KyK">
-                                                        <rect key="frame" x="0.0" y="136" width="280" height="34"/>
+                                                        <rect key="frame" x="0.0" y="160" width="280" height="40"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="on5-X2-beQ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -371,7 +372,7 @@
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sae-tH-txp">
-                                                                <rect key="frame" x="57" y="5" width="495" height="21"/>
+                                                                <rect key="frame" x="57" y="5" width="495" height="20.5"/>
                                                                 <animations/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -393,9 +394,6 @@
                                             </stackView>
                                         </subviews>
                                         <animations/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="170" id="Xiy-Zz-bFj"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <animations/>
